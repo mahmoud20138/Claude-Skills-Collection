@@ -1,341 +1,423 @@
-# Claude Skills Collection
+<h1 align="center">Claude Skills Collection</h1>
 
-**Created:** March 5, 2026
-**Last Updated:** March 5, 2026
-**Location:** C:/Users/Mamoud/Desktop/Claude-Skills-Collection/
-**Total Skills:** 69 across 7 categories
+<p align="center">
+  <strong>102+ Professional Claude Code Skills Across 7 Categories</strong><br>
+  Trading Strategies &bull; Azure Cloud &bull; VSCode Extensions &bull; AI Prompts &bull; Custom Automation
+</p>
 
-## Overview
+<p align="center">
+  <a href="https://github.com/mahmoud20138/Claude-Skills-Collection/stargazers"><img src="https://img.shields.io/github/stars/mahmoud20138/Claude-Skills-Collection?style=for-the-badge&logo=github&color=gold" alt="Stars"></a>
+  <a href="https://github.com/mahmoud20138/Claude-Skills-Collection/forks"><img src="https://img.shields.io/github/forks/mahmoud20138/Claude-Skills-Collection?style=for-the-badge&logo=github&color=blue" alt="Forks"></a>
+  <a href="https://github.com/mahmoud20138/Claude-Skills-Collection/issues"><img src="https://img.shields.io/github/issues/mahmoud20138/Claude-Skills-Collection?style=for-the-badge&color=red" alt="Issues"></a>
+  <img src="https://img.shields.io/github/last-commit/mahmoud20138/Claude-Skills-Collection?style=for-the-badge&color=brightgreen" alt="Last Commit">
+  <img src="https://img.shields.io/github/repo-size/mahmoud20138/Claude-Skills-Collection?style=for-the-badge&color=orange" alt="Repo Size">
+</p>
 
-This folder contains a comprehensive collection of all Claude-related skills, prompts, and automation tools gathered from various locations on your system.
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude-Code-FF6B35?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code">
+  <img src="https://img.shields.io/badge/Azure-24_Skills-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white" alt="Azure">
+  <img src="https://img.shields.io/badge/Trading-41_Skills-00C853?style=flat-square&logo=chart-line&logoColor=white" alt="Trading">
+  <img src="https://img.shields.io/badge/MQL5-Expert_Advisors-E44332?style=flat-square" alt="MQL5">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
+  <img src="https://img.shields.io/badge/PRs-Welcome-blueviolet?style=flat-square" alt="PRs Welcome">
+</p>
 
-> **See also:** [SKILL-INDEX.md](SKILL-INDEX.md) for the complete master index with trigger keywords for every skill.
+---
+
+## About
+
+> **102 Claude Code skills across 7 categories** -- trading strategies, Azure, VSCode extensions, AI prompts, and custom automation skills
+
+A comprehensive, production-ready collection of Claude Code skills, prompts, and automation tools organized across 7 specialized categories. From AI agent building and Azure cloud deployments to ICT trading strategies and MQL5 Expert Advisors -- everything you need to supercharge your Claude Code workflow.
+
+---
+
+## Table of Contents
+
+- [Skills Overview](#skills-overview)
+- [Category Breakdown](#category-breakdown)
+- [Trading Skills (.skill files)](#trading-skills-skill-files)
+- [How to Use](#how-to-use)
+- [Directory Structure](#directory-structure)
+- [Quick Reference](#quick-reference)
+- [Contributing](#contributing)
+- [License](#license)
+- [Connect](#connect)
+
+---
+
+## Skills Overview
+
+| # | Category | Skills | Key Topics |
+|---|----------|--------|------------|
+| 1 | **Custom Claude Skills** | 6 | AI Agent Builder, UI Design, Prompt Engineering, Trading, Architecture, Drawing |
+| 2 | **Azure Skills** | 24 | AI Search, Deploy, Cost Optimization, RBAC, Storage, Compute, Compliance |
+| 3 | **Claude Plugin Skills** | 10 | Automation, Frontend Design, Agent/Command/Hook/MCP Development |
+| 4 | **AITK Prompts** | 7 | Browser Automation, PR Creation, Bug Fixing, Documentation Lookup |
+| 5 | **VSCode Extension Skills** | 9 | Testing, Debugging, Python Environments, Cross-Platform Paths |
+| 6 | **OpenCode Skills** | 5 | AI SDK, Plugin Framework, Claude Code Extension |
+| 7 | **Trading Skills** | 8 + 33 .skill files | MQL5, ICT, Smart Money, Backtesting, Risk Management |
+| | **TOTAL** | **102+** | |
+
+---
+
+## Category Breakdown
+
+### 1. Custom Claude Skills (6)
+
+| Skill | Trigger Keywords | Description |
+|-------|-----------------|-------------|
+| **ai-agent-builder** | agent, agentic, tool use | Build AI-powered coding agents with multi-step orchestration |
+| **elite-ui-design** | beautiful UI, polished, dashboard | Generate production-grade, visually stunning UI code |
+| **few-shot-quality-prompting** | prompt engineering, improve output | Master prompt engineering with 7-layer prompts and few-shot patterns |
+| **ict-trading-strategy** | ICT, Smart Money, order blocks | ICT Smart Money Concepts and MQL5 trading strategies |
+| **pro-code-architecture** | clean code, refactor, best practices | Senior-engineer-level code architecture with SOLID principles |
+| **programmatic-drawing** | draw, illustrate, visualize, diagram | Generate visual art and diagrams (SVG, Canvas, p5.js, D3.js) |
+
+### 2. Azure Skills (24)
+
+| Skill | Description |
+|-------|-------------|
+| **azure-ai** | Azure AI Search, Speech, OpenAI, Document Intelligence |
+| **azure-aigateway** | API Management as AI Gateway with policies |
+| **azure-cloud-migrate** | Migrate AWS Lambda/GCP to Azure Functions |
+| **azure-compliance** | Security audits, compliance, Key Vault monitoring |
+| **azure-compute** | VM recommendations, VMSS, pricing |
+| **azure-cost-optimization** | Cost analysis, Redis optimization, resource graph |
+| **azure-deploy** | Deploy to Azure (azd up, Bicep, Terraform) |
+| **azure-diagnostics** | Debug production Container/Function Apps |
+| **azure-hosted-copilot-sdk** | GitHub Copilot SDK applications |
+| **azure-kusto** | Azure Data Explorer, KQL queries |
+| **azure-messaging** | Event Hubs, Service Bus troubleshooting |
+| **azure-observability** | Monitor, App Insights, Log Analytics |
+| **azure-postgres** | PostgreSQL with Entra ID passwordless auth |
+| **azure-prepare** | Prepare apps for Azure deployment |
+| **azure-rbac** | Role assignments, least-privilege access |
+| **azure-resource-lookup** | List and find Azure resources |
+| **azure-resource-visualizer** | Architecture diagrams (Mermaid) |
+| **azure-storage** | Blob, File, Queue, Table storage |
+| **azure-validate** | Pre-deployment validation |
+| **entra-app-registration** | Azure AD app registration, OAuth 2.0, MSAL |
+| **microsoft-foundry** | AI Foundry, models, agents, RBAC |
+| **appinsights-instrumentation** | App Insights SDK instrumentation |
+| **git-phase-restore** | Restore to previous project phases via Git |
+| **skill-creator** | Create new skills |
+
+### 3. Claude Plugin Skills (10)
+
+| Skill | Description |
+|-------|-------------|
+| **claude-automation-recommender** | Codebase automation analysis |
+| **claude-md-improver** | CLAUDE.md file auditing |
+| **frontend-design** | Distinct frontend design |
+| **example-skill** | Skill template example |
+| **writing-rules** | Automation writing rules |
+| **agent-development** | Agent creation patterns |
+| **command-development** | Command creation |
+| **hook-development** | Hook creation patterns |
+| **mcp-integration** | MCP server setup |
+| **skill-development** | Skill development workflow |
+
+### 4. AITK Prompts (7)
+
+| Prompt | Description |
+|--------|-------------|
+| **browser-use** | Browser automation |
+| **claude-opus-4-5-migration** | Claude migration guide |
+| **context7-docs-lookup** | Documentation lookup |
+| **create-pr** | Pull request creation |
+| **electron-chromium-upgrade** | Electron upgrades |
+| **fix** | Intelligent bug fixing |
+| **tools** | General-purpose tooling |
+
+### 5. VSCode Extension Skills (9)
+
+| Skill | Description |
+|-------|-------------|
+| **cross-platform-paths** | Cross-platform path handling |
+| **debug-failing-test** | Test debugging |
+| **generate-snapshot** | Snapshot generation |
+| **python-manager-discovery** | Python environment discovery |
+| **run-e2e-tests** | End-to-end testing |
+| **run-integration-tests** | Integration testing |
+| **run-pre-commit-checks** | Pre-commit validation |
+| **run-smoke-tests** | Smoke testing |
+| **settings-precedence** | Settings management |
+
+### 6. OpenCode Skills (5)
+
+| Package | Version | Description |
+|---------|---------|-------------|
+| **@opencode-ai/sdk** | v1.2.15, v1.2.16 | AI SDK client/server library with V2 API |
+| **@opencode-ai/plugin** | v1.2.15, v1.2.16 | Plugin development with Zod validation |
+| **Claude Code Extension** | v2.1.63 | VSCode integration walkthrough |
+
+### 7. Trading Skills (8 Core + 33 .skill files)
+
+| Skill | Description |
+|-------|-------------|
+| **mql5-indicator-development** | Build custom MT5 indicators with proper buffer management |
+| **mql5-ea-development** | Create Expert Advisors with entry/exit logic and risk management |
+| **ict-market-structure** | Identify market structure shifts (BOS, CHoCH) using ICT concepts |
+| **ict-order-blocks** | Detect and trade order blocks, breaker blocks, mitigation blocks |
+| **ict-liquidity-concepts** | Map liquidity pools, sweeps, and fair value gaps |
+| **multi-timeframe-analysis** | Top-down multi-timeframe analysis in MQL5 |
+| **risk-management-engine** | Position sizing, risk-per-trade, drawdown control |
+| **backtesting-optimization** | Strategy tester, walk-forward analysis, validation |
+
+---
+
+## Trading Skills (.skill files)
+
+The repo includes **33 standalone .skill files** at the root level for advanced trading automation:
+
+| Skill File | Category | Description |
+|-----------|----------|-------------|
+| `ai-signal-aggregator.skill` | AI/ML | Multi-model AI signal aggregation |
+| `asian-session-scalper.skill` | Scalping | Asian session scalping strategy |
+| `automated-strategy-builder.skill` | Builder | Automated strategy construction |
+| `breakout-strategy-engine.skill` | Breakout | Breakout detection and trading |
+| `candlestick-pattern-vision.skill` | Vision | AI-powered candlestick pattern recognition |
+| `candlestick-statistics-engine.skill` | Statistics | Candlestick statistical analysis |
+| `carry-trade-calculator.skill` | Carry Trade | Carry trade calculator and optimizer |
+| `chart-annotation-overlay.skill` | Visualization | Chart annotation overlay system |
+| `chart-image-preprocessor.skill` | Vision | Chart image preprocessing for AI |
+| `chart-pattern-recognition-vision.skill` | Vision | AI chart pattern recognition |
+| `chart-vision-renderer.skill` | Visualization | Chart rendering engine |
+| `correlation-heatmap-visualizer.skill` | Visualization | Correlation heatmap generator |
+| `cot-positioning-strategy.skill` | Sentiment | COT positioning-based strategy |
+| `cross-timeframe-divergence-scanner.skill` | Scanner | Cross-timeframe divergence detection |
+| `currency-strength-meter.skill` | Analysis | Multi-currency strength meter |
+| `divergence-strategy-engine.skill` | Divergence | Divergence detection and trading |
+| `economic-indicator-tracker.skill` | Macro | Economic indicator tracking |
+| `elliott-wave-engine.skill` | Elliott Wave | Elliott Wave analysis engine |
+| `end-of-day-strategy.skill` | Swing | End-of-day trading strategy |
+| `event-timeline-linker.skill` | Macro | Event timeline correlation |
+| `fibonacci-strategy-engine.skill` | Fibonacci | Fibonacci-based strategy engine |
+| `gap-trading-strategy.skill` | Gap | Gap trading strategy |
+| `grid-trading-engine.skill` | Grid | Grid trading system |
+| `harmonic-pattern-engine.skill` | Harmonic | Harmonic pattern detection (Gartley, Bat, Butterfly) |
+| `heikin-ashi-renko-strategies.skill` | Chart Types | Heikin Ashi and Renko strategies |
+| `ichimoku-complete-strategy.skill` | Ichimoku | Complete Ichimoku Cloud strategy |
+| `institutional-behavior-monitor.skill` | Smart Money | Institutional behavior tracking |
+| `intermarket-divergence-trader.skill` | Intermarket | Intermarket divergence trading |
+| `ma-ribbon-strategy.skill` | Moving Average | MA ribbon strategy |
+| `market-breadth-analyzer.skill` | Breadth | Market breadth analysis |
+| `market-news-impact.skill` | News | Market news impact analysis |
+| `market-structure-bos-choch.skill` | Structure | BOS/CHoCH detection engine |
+| `mean-reversion-engine.skill` | Mean Reversion | Mean reversion trading engine |
+| `momentum-roc-strategy.skill` | Momentum | Momentum ROC strategy |
+| `monte-carlo-stress-tester.skill` | Risk | Monte Carlo stress testing |
+| `mt5-chart-browser.skill` | MT5 | MT5 chart browsing system |
+| `mt5-ea-code-generator.skill` | MT5 | EA code generation |
+| `multi-account-manager.skill` | Management | Multi-account management system |
+| `multi-pair-basket-trader.skill` | Basket | Multi-pair basket trading |
+| `multi-tf-order-block-mapper.skill` | Smart Money | Multi-timeframe order block mapping |
+| `natural-language-to-strategy.skill` | AI | Natural language strategy builder |
+| `news-sentiment-nlp-engine.skill` | NLP | News sentiment NLP engine |
+| `news-straddle-strategy.skill` | News | News straddle trading strategy |
+| `order-flow-delta-strategy.skill` | Order Flow | Order flow delta strategy |
+| `pair-correlation-engine.skill` | Correlation | Pair correlation analysis |
+| `pair-scanner-screener.skill` | Scanner | Multi-pair scanner/screener |
+| `parameter-sensitivity-analyzer.skill` | Optimization | Parameter sensitivity analysis |
+| `performance-attribution-engine.skill` | Performance | Performance attribution analysis |
+| `pivot-point-strategies.skill` | Pivot | Pivot point strategies |
+| `price-action-pure-engine.skill` | Price Action | Pure price action engine |
+| `risk-adjusted-compounding.skill` | Risk | Risk-adjusted position compounding |
+| `risk-premia-harvester.skill` | Risk | Risk premia harvesting strategy |
+| `scalping-framework.skill` | Scalping | Complete scalping framework |
+| `seasonality-analyzer.skill` | Seasonality | Seasonal pattern analysis |
+| `sentiment-extreme-contrarian.skill` | Sentiment | Sentiment extreme contrarian strategy |
+| `session-breakout-strategies.skill` | Session | Session breakout strategies |
+| `smart-money-trap-detector.skill` | Smart Money | Smart money trap detection |
+| `spread-slippage-cost-analyzer.skill` | Cost | Spread and slippage cost analysis |
+| `strategy-ab-tester.skill` | Testing | Strategy A/B testing framework |
+| `supply-demand-zone-strategy.skill` | S/D Zones | Supply and demand zone strategy |
+| `swap-rate-optimizer.skill` | Swap | Swap rate optimization |
+| `swing-trading-framework.skill` | Swing | Complete swing trading framework |
+| `tail-risk-hedging.skill` | Risk | Tail risk hedging strategies |
+| `trade-psychology-coach.skill` | Psychology | Trading psychology coaching |
+| `trade-simulator-paper.skill` | Simulation | Paper trading simulator |
+| `trading-brain-orchestrator.skill` | AI | AI trading brain orchestrator |
+| `trading-data-science.skill` | Data Science | Trading data science toolkit |
+| `trading-plan-builder.skill` | Planning | Trading plan builder |
+| `trend-following-systems.skill` | Trend | Trend following systems |
+| `trendline-sr-vision.skill` | Vision | AI trendline and S/R detection |
+| `vectorized-backtester.skill` | Backtesting | High-performance vectorized backtester |
+| `volume-profile-strategy.skill` | Volume | Volume profile strategy |
+| `wyckoff-method-engine.skill` | Wyckoff | Wyckoff method analysis engine |
+
+---
+
+## How to Use
+
+### Method 1: Claude Code Auto-Load
+
+Skills are automatically loaded by Claude Code based on trigger keywords in your prompts:
+
+```
+"Help me build an AI agent with tool use"     → loads ai-agent-builder
+"Deploy my app to Azure"                      → loads azure-deploy
+"Create a beautiful dashboard UI"              → loads elite-ui-design
+"Identify order blocks on EURUSD H1"           → loads ict-order-blocks
+```
+
+### Method 2: Direct File Access
+
+Navigate to any skill folder and read the `SKILL.md` file for complete documentation.
+
+### Method 3: Manual Loading
+
+Reference the skill directly in your Claude Code prompts or commands.
+
+### Method 4: Copy to Your Skills Directory
+
+```bash
+# Copy specific skills to your Claude Code skills directory
+cp -r 01-Custom-Claude-Skills/skills/ai-agent-builder.md ~/.claude/skills/
+cp -r 07-Trading-Skills/skills/ict-market-structure/ ~/.claude/skills/
+```
+
+---
 
 ## Directory Structure
 
 ```
 Claude-Skills-Collection/
-├── README.md (this file)
-├── SKILL-INDEX.md (master index with all skills)
-├── EXPORT-SUMMARY.md (export/backup log)
+├── README.md
+├── SKILL-INDEX.md                    # Master index with trigger keywords
+├── EXPORT-SUMMARY.md                 # Export/backup log
+├── merge_skills.py                   # Skill merging utility
 │
-├── 01-Custom-Claude-Skills/          (6 skills)
-│   ├── ai-agent-builder.md
-│   ├── elite-ui-design.md
-│   ├── few-shot-quality-prompting.md
-│   ├── ict-trading-strategy.md
-│   ├── pro-code-architecture.md
-│   └── programmatic-drawing.md
+├── 01-Custom-Claude-Skills/          # 6 skills
+│   └── skills/
+│       ├── ai-agent-builder.md
+│       ├── elite-ui-design.md
+│       ├── few-shot-quality-prompting.md
+│       ├── ict-trading-strategy.md
+│       ├── pro-code-architecture.md
+│       └── programmatic-drawing.md
 │
-├── 02-Azure-Skills/                  (24 skills)
-│   ├── azure-ai/
-│   ├── azure-aigateway/
-│   ├── azure-cloud-migrate/
-│   ├── azure-compliance/
-│   ├── azure-compute/
-│   ├── azure-cost-optimization/
-│   ├── azure-deploy/
-│   ├── azure-diagnostics/
-│   ├── azure-hosted-copilot-sdk/
-│   ├── azure-kusto/
-│   ├── azure-messaging/
-│   ├── azure-observability/
-│   ├── azure-postgres/
-│   ├── azure-prepare/
-│   ├── azure-rbac/
-│   ├── azure-resource-lookup/
-│   ├── azure-resource-visualizer/
-│   ├── azure-storage/
-│   ├── azure-validate/
-│   ├── entra-app-registration/
-│   ├── microsoft-foundry/
-│   ├── appinsights-instrumentation/
-│   ├── git-phase-restore/
-│   └── skill-creator/
+├── 02-Azure-Skills/                  # 24 skills
+│   └── skills/
+│       ├── azure-ai/
+│       ├── azure-deploy/
+│       ├── azure-cost-optimization/
+│       ├── azure-compute/
+│       ├── azure-storage/
+│       ├── azure-compliance/
+│       ├── ... (18 more)
+│       └── skill-creator/
 │
-├── 03-Claude-Plugin-Skills/          (10 skills)
-│   ├── claude-automation-recommender/
-│   ├── claude-md-improver/
-│   ├── frontend-design/
-│   ├── example-skill/
-│   ├── writing-rules/
-│   ├── agent-development/
-│   ├── command-development/
-│   ├── hook-development/
-│   ├── mcp-integration/
-│   └── skill-development/
+├── 03-Claude-Plugin-Skills/          # 10 skills
+│   └── skills/claude-automation-recommender/
+│       ├── agent-development/
+│       ├── command-development/
+│       ├── hook-development/
+│       ├── mcp-integration/
+│       └── skill-development/
 │
-├── 04-AITK-Prompts/                  (7 prompts)
+├── 04-AITK-Prompts/                  # 7 prompts
 │   ├── browser-use/
-│   ├── claude-opus-4-5-migration/
-│   ├── context7-docs-lookup/
-│   ├── create-pr/
-│   ├── electron-chromium-upgrade/
 │   ├── fix/
-│   └── tools/
+│   ├── create-pr/
+│   └── ... (4 more)
 │
-├── 05-VSCode-Extension-Skills/       (9 skills)
-│   ├── cross-platform-paths/
+├── 05-VSCode-Extension-Skills/       # 9 skills
 │   ├── debug-failing-test/
-│   ├── generate-snapshot/
-│   ├── python-manager-discovery/
 │   ├── run-e2e-tests/
-│   ├── run-integration-tests/
-│   ├── run-pre-commit-checks/
-│   ├── run-smoke-tests/
-│   └── settings-precedence/
+│   └── ... (7 more)
 │
-├── 06-OpenCode-Skills/               (5 packages)
-│   ├── @opencode-ai/sdk (v1.2.15 & v1.2.16)
-│   ├── @opencode-ai/plugin (v1.2.15 & v1.2.16)
-│   ├── anthropic.claude-code-2.1.63-win32-x64/
-│   └── README.md
+├── 06-OpenCode-Skills/               # 5 packages
+│   ├── @opencode-ai/sdk/
+│   ├── @opencode-ai/plugin/
+│   └── anthropic.claude-code-2.1.63/
 │
-└── 07-Trading-Skills/                (8 skills) ← NEW
-    ├── mql5-indicator-development/
-    ├── mql5-ea-development/
-    ├── ict-market-structure/
-    ├── ict-order-blocks/
-    ├── ict-liquidity-concepts/
-    ├── multi-timeframe-analysis/
-    ├── risk-management-engine/
-    └── backtesting-optimization/
+├── 07-Trading-Skills/                # 8 core skills
+│   ├── mql5-indicator-development/
+│   ├── mql5-ea-development/
+│   ├── ict-market-structure/
+│   ├── ict-order-blocks/
+│   ├── ict-liquidity-concepts/
+│   ├── multi-timeframe-analysis/
+│   ├── risk-management-engine/
+│   └── backtesting-optimization/
+│
+└── *.skill                           # 33 standalone trading skills
+    ├── ai-signal-aggregator.skill
+    ├── wyckoff-method-engine.skill
+    ├── vectorized-backtester.skill
+    ├── elliott-wave-engine.skill
+    └── ... (29 more)
 ```
-
-## Skills Inventory
-
-### 1. Custom Claude Skills (6 Skills)
-Located in: `01-Custom-Claude-Skills/`
-Source: `C:/Users/Mamoud/.claude/skills/`
-
-1. **ai-agent-builder.md**
-   - **Purpose:** Build AI-powered coding agents with tool use and multi-step orchestration
-   - **Triggers:** "agent", "agentic", "tool use", "function calling"
-   - **Key Features:** Agent architecture, tool design, skill loading, context management
-
-2. **elite-ui-design.md**
-   - **Purpose:** Generate production-grade, visually stunning UI code
-   - **Triggers:** "beautiful UI", "polished", "pro-level design", "dashboard"
-   - **Key Features:** Design systems, typography, animations, accessibility
-
-3. **few-shot-quality-prompting.md**
-   - **Purpose:** Master prompt engineering for professional AI output
-   - **Triggers:** "prompt engineering", "better results", "improve output"
-   - **Key Features:** 7-layer prompts, few-shot patterns, evaluation frameworks
-
-4. **ict-trading-strategy.md**
-   - **Purpose:** ICT Smart Money Concepts and MQL5 trading
-   - **Triggers:** "ICT", "Smart Money", "trading strategy", "order blocks"
-   - **Key Features:** Market structure, liquidity, PD arrays, risk management
-
-5. **pro-code-architecture.md**
-   - **Purpose:** Senior-engineer-level code architecture
-   - **Triggers:** "clean code", "production-grade", "refactor", "best practices"
-   - **Key Features:** SOLID principles, design patterns, error handling, testing
-
-6. **programmatic-drawing.md**
-   - **Purpose:** Generate visual art and diagrams through code
-   - **Triggers:** "draw", "illustrate", "visualize", "diagram"
-   - **Key Features:** SVG, Canvas, p5.js, Three.js, D3.js
-
----
-
-### 2. Azure Skills (24 Skills)
-Located in: `02-Azure-Skills/`
-Source: `C:/Users/Mamoud/.agents/skills/`
-
-1. **azure-ai** - Azure AI Search, Speech, OpenAI, Document Intelligence
-2. **azure-aigateway** - API Management as AI Gateway
-3. **azure-cloud-migrate** - Migrate AWS/GCP to Azure
-4. **azure-compliance** - Security audits, compliance, Key Vault monitoring
-5. **azure-compute** - VM recommendations, VMSS
-6. **azure-cost-optimization** - Cost analysis and optimization
-7. **azure-deploy** - Deploy to Azure (azd up, Bicep, Terraform)
-8. **azure-diagnostics** - Debug production issues (Container/Function Apps)
-9. **azure-hosted-copilot-sdk** - GitHub Copilot SDK apps
-10. **azure-kusto** - Azure Data Explorer, KQL queries
-11. **azure-messaging** - Event Hubs, Service Bus troubleshooting
-12. **azure-observability** - Monitor, App Insights, Log Analytics
-13. **azure-postgres** - PostgreSQL with Entra ID passwordless auth
-14. **azure-prepare** - Prepare apps for Azure deployment
-15. **azure-rbac** - Role assignments, least-privilege access
-16. **azure-resource-lookup** - List/find Azure resources
-17. **azure-resource-visualizer** - Architecture diagrams (Mermaid)
-18. **azure-storage** - Blob, File, Queue, Table storage
-19. **azure-validate** - Pre-deployment validation
-20. **entra-app-registration** - Azure AD app registration, OAuth 2.0, MSAL
-21. **microsoft-foundry** - AI Foundry, models, agents, RBAC
-22. **appinsights-instrumentation** - App Insights SDK instrumentation
-23. **git-phase-restore** - Restore to previous project phases via Git
-24. **skill-creator** - Create new skills
-
----
-
-### 3. Claude Plugin Skills (10 Skills)
-Located in: `03-Claude-Plugin-Skills/`
-Source: `C:/Users/Mamoud/.claude/plugins/marketplaces/claude-plugins-official/plugins/`
-
-1. **claude-automation-recommender** - Codebase automation analysis
-2. **claude-md-improver** - CLAUDE.md file auditing
-3. **frontend-design** - Distinct frontend design
-4. **example-skill** - Skill template example
-5. **writing-rules** - Automation rules
-6. **agent-development** - Agent creation patterns
-7. **command-development** - Command creation
-8. **hook-development** - Hook creation patterns
-9. **mcp-integration** - MCP server setup
-10. **skill-development** - Skill development workflow
-
----
-
-### 4. AITK Prompts (7 Prompts)
-Located in: `04-AITK-Prompts/`
-Source: `C:/Users/Mamoud/.aitk/prompts/`
-
-1. **browser-use** - Browser automation
-2. **claude-opus-4-5-migration** - Claude migration guide
-3. **context7-docs-lookup** - Documentation lookup
-4. **create-pr** - Pull request creation
-5. **electron-chromium-upgrade** - Electron upgrades
-6. **fix** - Intelligent bug fixing
-7. **tools** - General-purpose tooling
-
----
-
-### 5. VSCode Extension Skills (9 Skills)
-Located in: `05-VSCode-Extension-Skills/`
-Source: `C:/Users/Mamoud/.antigravity/extensions/ms-python.vscode-python-envs-*/`
-
-1. **cross-platform-paths** - Cross-platform path handling
-2. **debug-failing-test** - Test debugging
-3. **generate-snapshot** - Snapshot generation
-4. **python-manager-discovery** - Python environment discovery
-5. **run-e2e-tests** - End-to-end testing
-6. **run-integration-tests** - Integration testing
-7. **run-pre-commit-checks** - Pre-commit validation
-8. **run-smoke-tests** - Smoke testing
-9. **settings-precedence** - Settings management
-
----
-
-### 6. OpenCode Skills (5 Packages)
-Located in: `06-OpenCode-Skills/`
-
-1. **@opencode-ai/sdk (v1.2.15)** - AI SDK client/server library
-2. **@opencode-ai/sdk (v1.2.16)** - Latest SDK with V2 API
-3. **@opencode-ai/plugin (v1.2.15)** - Plugin development framework
-4. **@opencode-ai/plugin (v1.2.16)** - Latest plugin with Zod validation
-5. **Claude Code Extension (v2.1.63)** - VSCode integration walkthrough
-
----
-
-### 7. Trading Skills (8 Skills) — NEW
-Located in: `07-Trading-Skills/`
-
-1. **mql5-indicator-development** - Build custom MT5 indicators with proper buffer management
-2. **mql5-ea-development** - Create Expert Advisors with entry/exit logic and risk management
-3. **ict-market-structure** - Identify market structure shifts (BOS, CHoCH) using ICT concepts
-4. **ict-order-blocks** - Detect and trade order blocks, breaker blocks, mitigation blocks
-5. **ict-liquidity-concepts** - Map liquidity pools, sweeps, and fair value gaps for entries
-6. **multi-timeframe-analysis** - Implement top-down multi-timeframe analysis in MQL5
-7. **risk-management-engine** - Position sizing, risk-per-trade, and drawdown control systems
-8. **backtesting-optimization** - Strategy tester optimization, walk-forward analysis, validation
-
----
-
-## How to Use These Skills
-
-### Method 1: Direct File Access
-Simply navigate to the skill folder and read the SKILL.md file to understand what the skill does and how to use it.
-
-### Method 2: Claude Code Integration
-Skills are automatically loaded by Claude Code based on triggers in the skill description.
-
-### Method 3: Manual Loading
-You can manually invoke skills using Claude Code commands or by referencing the skill in your prompts.
-
----
-
-## Total Skills Count
-
-| Category | Count |
-|----------|-------|
-| Custom Claude Skills | 6 |
-| Azure Skills | 24 |
-| Claude Plugin Skills | 10 |
-| AITK Prompts | 7 |
-| VSCode Extension Skills | 9 |
-| OpenCode Skills | 5 |
-| Trading Skills (NEW) | 8 |
-| **TOTAL** | **69 professional skills** |
-
----
-
-## Backup Information
-
-**Created from:**
-- `C:/Users/Mamoud/.claude/skills/`
-- `C:/Users/Mamoud/.agents/skills/`
-- `C:/Users/Mamoud/.claude/plugins/marketplaces/claude-plugins-official/plugins/`
-- `C:/Users/Mamoud/.aitk/prompts/`
-- `C:/Users/Mamoud/.antigravity/extensions/`
-- `C:/Users/Mamoud/AppData/Roaming/MetaQuotes/Terminal/*/MQL5/` (Trading Skills)
-
-**Backup Date:** March 5, 2026
-**Total Size:** ~20-25 MB
 
 ---
 
 ## Quick Reference
 
-### Most Commonly Used Skills:
-1. **ai-agent-builder** - For building AI agents
-2. **elite-ui-design** - For beautiful UI design
-3. **pro-code-architecture** - For production code
-4. **ict-trading-strategy** - For trading applications
-5. **programmatic-drawing** - For visual generation
-6. **azure-deploy** - For Azure deployments
-7. **skill-creator** - For creating new skills
-8. **mql5-ea-development** - For MQL5 Expert Advisors (NEW)
-9. **risk-management-engine** - For trade risk management (NEW)
+### Most Popular Skills
 
-### Skill Triggering
-Skills automatically trigger based on keywords in your prompts. Each skill has specific trigger phrases defined in its description. See [SKILL-INDEX.md](SKILL-INDEX.md) for the complete trigger keyword reference.
+| Use Case | Skill | Location |
+|----------|-------|----------|
+| Build AI agents | `ai-agent-builder` | 01-Custom |
+| Beautiful UI | `elite-ui-design` | 01-Custom |
+| Production code | `pro-code-architecture` | 01-Custom |
+| Azure deploy | `azure-deploy` | 02-Azure |
+| Create new skills | `skill-creator` | 02-Azure |
+| ICT trading | `ict-trading-strategy` | 01-Custom |
+| MT5 indicators | `mql5-indicator-development` | 07-Trading |
+| Expert Advisors | `mql5-ea-development` | 07-Trading |
+| Backtesting | `vectorized-backtester.skill` | Root |
+| Risk management | `risk-management-engine` | 07-Trading |
 
----
+### Languages Used
 
-## Maintenance
-
-To update this collection:
-1. Re-run the collection script
-2. Or manually copy new skills to the appropriate subfolder
-3. Update this README with new additions
-4. Update SKILL-INDEX.md with the new skill entries
-
----
-
-## Changelog
-
-### March 5, 2026 — v2.0 (Major Update)
-- **Added** `07-Trading-Skills/` with 8 new MQL5/MT5 trading automation skills
-- **Cleaned up** duplicate folders (removed empty `04-VSCode-Extension-Skills`, `05-AITK-Prompts`, `06-Project-Skills`)
-- **Updated** VSCode Extension Skills count from 5 → 9 (discovered 4 additional skills)
-- **Updated** total skills count from 52 → 69
-- **Created** comprehensive `SKILL-INDEX.md` master index with trigger keywords
-
-### March 5, 2026 — v1.0 (Initial)
-- Initial collection of 52+ skills across 6 categories
+| Language | Percentage | Use Case |
+|----------|-----------|----------|
+| HTML | 26.8% | Azure reference docs |
+| Python | 22.3% | Scripts, tools, utilities |
+| Shell | 19.8% | Deployment scripts |
+| Bicep | 14.1% | Azure infrastructure |
+| HCL | 12.3% | Terraform configurations |
+| PowerShell | 4.5% | Windows automation |
+| Batchfile | 0.2% | Windows scripts |
 
 ---
 
-## Notes
+## Contributing
 
-- All skills are in their original format (SKILL.md files with YAML frontmatter)
-- Skills can be edited/customized as needed
-- Some skills may have additional reference files in their directories
-- The collection preserves the original directory structure where applicable
-- Trading Skills are designed for MetaTrader 5 / MQL5 development
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/new-skill`)
+3. Add your skill following the existing structure
+4. Commit your changes (`git commit -m 'Add new skill'`)
+5. Push to the branch (`git push origin feature/new-skill`)
+6. Open a Pull Request
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ---
 
-**Enjoy your comprehensive skills collection!** 🚀
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Connect
+
+<p align="center">
+  <a href="https://github.com/mahmoud20138"><img src="https://img.shields.io/badge/GitHub-mahmoud20138-181717?style=for-the-badge&logo=github" alt="GitHub"></a>
+</p>
+
+<p align="center">
+  <strong>Built by <a href="https://github.com/mahmoud20138">Mahmoud</a></strong><br>
+  <sub>If you find this collection useful, please consider giving it a star!</sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/mahmoud20138/Claude-Skills-Collection/stargazers">
+    <img src="https://img.shields.io/github/stars/mahmoud20138/Claude-Skills-Collection?style=social" alt="Star this repo">
+  </a>
+</p>
