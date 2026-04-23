@@ -23,13 +23,13 @@ Primary data source: **yfinance** (free, no account, no API key). Automatic upgr
 ## Invocation
 
 ```text
-/claude-skills-collection:fetch-quotes <SYMBOL> [TIMEFRAME] [BARS] [SOURCE] [CHART]
+/tradecraft:fetch-quotes <SYMBOL> [TIMEFRAME] [BARS] [SOURCE] [CHART]
 
 # Examples
-/claude-skills-collection:fetch-quotes XAUUSD                  # defaults: H1, 200 bars, auto
-/claude-skills-collection:fetch-quotes US30 H4
-/claude-skills-collection:fetch-quotes EURUSD M15 100 free
-/claude-skills-collection:fetch-quotes BTCUSD D1 300 auto chart
+/tradecraft:fetch-quotes XAUUSD                  # defaults: H1, 200 bars, auto
+/tradecraft:fetch-quotes US30 H4
+/tradecraft:fetch-quotes EURUSD M15 100 free
+/tradecraft:fetch-quotes BTCUSD D1 300 auto chart
 ```
 
 - `<SYMBOL>` — e.g. `XAUUSD`, `US30`, `EURUSD`, `BTCUSD`. Broker suffixes (`XAUUSDm`, `US30.cash`) are normalized automatically.

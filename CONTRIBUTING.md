@@ -1,10 +1,10 @@
-# Contributing to Claude Skills Collection
+# Contributing to Tradecraft
 
 Thank you for your interest in contributing!
 
 ## Adding a New Skill
 
-1. **Create the skill directory** at `plugins/claude-skills-collection/skills/<skill-name>/` using lowercase, hyphen-separated names (e.g., `my-new-skill`).
+1. **Create the skill directory** at `plugins/tradecraft/skills/<skill-name>/` using lowercase, hyphen-separated names (e.g., `my-new-skill`).
 2. **Create `SKILL.md`** inside that directory with YAML frontmatter:
    ```markdown
    ---
@@ -20,9 +20,9 @@ Thank you for your interest in contributing!
 4. **Keep skills focused** — one skill, one topic. Cross-reference related skills by their exact name.
 5. **Test locally**:
    ```shell
-   claude --plugin-dir ./plugins/claude-skills-collection
+   claude --plugin-dir ./plugins/tradecraft
    # inside Claude:
-   /claude-skills-collection:my-new-skill
+   /tradecraft:my-new-skill
    ```
 
 ## Skill File Guidelines

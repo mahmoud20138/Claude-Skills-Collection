@@ -29,13 +29,13 @@ Runs a fixed, ordered pipeline of specialist skills against one symbol and retur
 ## Invocation
 
 ```text
-/claude-skills-collection:pair-analyze <SYMBOL> [TIMEFRAME] [MODE]
+/tradecraft:pair-analyze <SYMBOL> [TIMEFRAME] [MODE]
 
 # Examples
-/claude-skills-collection:pair-analyze XAUUSD H1
-/claude-skills-collection:pair-analyze US30 H4 conservative
-/claude-skills-collection:pair-analyze EURUSD M15 scalp
-/claude-skills-collection:pair-analyze BTCUSD D1 swing
+/tradecraft:pair-analyze XAUUSD H1
+/tradecraft:pair-analyze US30 H4 conservative
+/tradecraft:pair-analyze EURUSD M15 scalp
+/tradecraft:pair-analyze BTCUSD D1 swing
 ```
 
 - `<SYMBOL>` — any broker-recognized symbol (XAUUSD, US30, EURUSD, BTCUSD, ...)

@@ -25,13 +25,13 @@ Pre-configured wrapper around `pair-analyze` for **US30** (Dow Jones Industrial 
 ## Invocation
 
 ```text
-/claude-skills-collection:analyze-us30 [TIMEFRAME] [MODE]
+/tradecraft:analyze-us30 [TIMEFRAME] [MODE]
 
 # Examples
-/claude-skills-collection:analyze-us30              # defaults: H1, standard
-/claude-skills-collection:analyze-us30 H4 conservative
-/claude-skills-collection:analyze-us30 M15 scalp
-/claude-skills-collection:analyze-us30 D1 swing
+/tradecraft:analyze-us30              # defaults: H1, standard
+/tradecraft:analyze-us30 H4 conservative
+/tradecraft:analyze-us30 M15 scalp
+/tradecraft:analyze-us30 D1 swing
 ```
 
 Arguments are exposed via `$ARGUMENTS`. Symbol is locked to `US30`.

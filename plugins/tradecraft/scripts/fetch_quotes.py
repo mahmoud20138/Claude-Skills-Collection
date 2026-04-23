@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-fetch_quotes.py - cascading market-data fetcher for Claude Skills Collection.
+fetch_quotes.py - cascading market-data fetcher for the Tradecraft plugin.
 
 Priority (when --source auto):
   1. Local MT5 terminal, if the MetaTrader5 library imports AND initialize() succeeds.

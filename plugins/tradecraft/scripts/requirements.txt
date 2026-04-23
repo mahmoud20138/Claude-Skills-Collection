@@ -1,5 +1,5 @@
 # Runtime deps for scripts/fetch_quotes.py
-# Install with:  pip install -r plugins/claude-skills-collection/scripts/requirements.txt
+# Install with:  pip install -r plugins/tradecraft/scripts/requirements.txt
 
 # Free-path data source (no account, no API key)
 yfinance>=0.2.40

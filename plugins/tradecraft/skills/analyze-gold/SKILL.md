@@ -25,13 +25,13 @@ Pre-configured wrapper around `pair-analyze` for **XAUUSD** with gold-specific c
 ## Invocation
 
 ```text
-/claude-skills-collection:analyze-gold [TIMEFRAME] [MODE]
+/tradecraft:analyze-gold [TIMEFRAME] [MODE]
 
 # Examples
-/claude-skills-collection:analyze-gold              # defaults: H1, standard
-/claude-skills-collection:analyze-gold H4 conservative
-/claude-skills-collection:analyze-gold M15 scalp
-/claude-skills-collection:analyze-gold D1 swing
+/tradecraft:analyze-gold              # defaults: H1, standard
+/tradecraft:analyze-gold H4 conservative
+/tradecraft:analyze-gold M15 scalp
+/tradecraft:analyze-gold D1 swing
 ```
 
 Arguments are exposed via `$ARGUMENTS`. Symbol is locked to `XAUUSD`.

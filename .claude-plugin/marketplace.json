@@ -1,18 +1,18 @@
 {
-  "name": "claude-skills-collection",
+  "name": "tradecraft",
   "owner": {
     "name": "Mahmoud Ali",
     "email": "mahmoud.abdou2002@gmail.com"
   },
   "metadata": {
-    "description": "161 curated AI skills across trading, AI development, software engineering, Claude Code platform, data acquisition, and domain knowledge.",
+    "description": "165 curated AI skills across trading, AI development, software engineering, Claude Code platform, data acquisition, and domain knowledge.",
     "version": "1.0.0"
   },
   "plugins": [
     {
-      "name": "claude-skills-collection",
-      "source": "./plugins/claude-skills-collection",
-      "description": "161 curated AI skills. Each skill becomes a slash command like /claude-skills-collection:<skill> and is also model-invocable.",
+      "name": "tradecraft",
+      "source": "./plugins/tradecraft",
+      "description": "165 curated AI skills. Each skill becomes a slash command like /tradecraft:<skill> and is also model-invocable.",
       "version": "1.0.0",
       "author": {
         "name": "Mahmoud Ali"
